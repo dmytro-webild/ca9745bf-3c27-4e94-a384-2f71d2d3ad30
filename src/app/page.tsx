@@ -135,23 +135,23 @@ export default function LandingPage() {
       animationType="slide-up"
       products={[
         {
-          id: "p1",          name: "Dental Implants",          price: "Starting at ₹25,000",          imageSrc: "http://img.b2bpic.net/free-photo/conceptual-3d-illustration-dental-implant-inside-jawbone_183364-123704.jpg",          imageAlt: "Dental implant model",          rating: 5,
+          id: "p1",          name: "Dental Implants",          price: "Starting at ₹25,000",          imageSrc: "http://img.b2bpic.net/free-photo/conceptual-3d-illustration-dental-implant-inside-jawbone_183364-123704.jpg",          imageAlt: "Dental implant model",          rating: 5
         },
         {
-          id: "p2",          name: "Root Canal Treatment",          price: "Starting at ₹7,000",          imageSrc: "http://img.b2bpic.net/free-photo/female-patient-scared-dental-check-up_107420-74158.jpg",          imageAlt: "Root canal treatment diagram",          rating: 4,
+          id: "p2",          name: "Root Canal Treatment",          price: "Starting at ₹7,000",          imageSrc: "http://img.b2bpic.net/free-photo/female-patient-scared-dental-check-up_107420-74158.jpg",          imageAlt: "Root canal treatment diagram",          rating: 4
         },
         {
-          id: "p3",          name: "Professional Whitening",          price: "Starting at ₹8,000",          imageSrc: "http://img.b2bpic.net/free-photo/young-female-patient-bed-physiotherapy-center_1139-1121.jpg",          imageAlt: "Professional teeth whitening kit",          rating: 5,
+          id: "p3",          name: "Professional Whitening",          price: "Starting at ₹8,000",          imageSrc: "http://img.b2bpic.net/free-photo/young-female-patient-bed-physiotherapy-center_1139-1121.jpg",          imageAlt: "Professional teeth whitening kit",          rating: 5
         },
         {
-          id: "p4",          name: "Dental Crowns",          price: "Starting at ₹6,000",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-fashion-woman-red-lips-big-smile_1150-14158.jpg",          imageAlt: "Dental crown on a tooth model",          rating: 5,
+          id: "p4",          name: "Dental Crowns",          price: "Starting at ₹6,000",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-fashion-woman-red-lips-big-smile_1150-14158.jpg",          imageAlt: "Dental crown on a tooth model",          rating: 5
         },
         {
-          id: "p5",          name: "Composite Fillings",          price: "Starting at ₹1,500",          imageSrc: "http://img.b2bpic.net/free-photo/female-patient-receiving-dental-treatment_107420-65506.jpg",          imageAlt: "Composite dental filling",          rating: 4,
+          id: "p5",          name: "Composite Fillings",          price: "Starting at ₹1,500",          imageSrc: "http://img.b2bpic.net/free-photo/female-patient-receiving-dental-treatment_107420-65506.jpg",          imageAlt: "Composite dental filling",          rating: 4
         },
         {
-          id: "p6",          name: "Clear Aligners",          price: "Starting at ₹50,000",          imageSrc: "http://img.b2bpic.net/free-photo/woman-wearing-orthodontic-silicone-invisible-braces_107420-74181.jpg",          imageAlt: "Invisible braces aligners",          rating: 5,
-        },
+          id: "p6",          name: "Clear Aligners",          price: "Starting at ₹50,000",          imageSrc: "http://img.b2bpic.net/free-photo/woman-wearing-orthodontic-silicone-invisible-braces_107420-74181.jpg",          imageAlt: "Invisible braces aligners",          rating: 5
+        }
       ]}
       title="Our Popular Dental Treatments"
       description="Explore our most sought-after treatments, meticulously performed by our experienced dental professionals using advanced techniques."
@@ -230,21 +230,21 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={true}
       title="Get in Touch with Clear Smile Dental"
-      description="Schedule your appointment today or reach out with any questions. We look forward to welcoming you!"
+      description="Schedule your appointment today or reach out with any questions. You can also book via WhatsApp: +91 73500 43747. We look forward to welcoming you!"
       inputs={[
         {
-          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true
         },
         {
-          name: "email",          type: "email",          placeholder: "Your Email",          required: true,
+          name: "email",          type: "email",          placeholder: "Your Email",          required: true
         },
         {
-          name: "phone",          type: "tel",          placeholder: "Phone Number",          required: false,
-        },
+          name: "phone",          type: "tel",          placeholder: "Phone Number",          required: false
+        }
       ]}
       textarea={{
         name: "message",        placeholder: "Your Message or Inquiry",        rows: 4,
-        required: true,
+        required: true
       }}
       imageSrc="http://img.b2bpic.net/free-photo/building-with-modern-design_1127-2284.jpg"
       imageAlt="Exterior of Clear Smile Dental Clinic"
